@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  ruby-api:
+    build: .
+    container_name: ruby-api
+    ports:
+      - 8080:8080
